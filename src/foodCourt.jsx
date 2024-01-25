@@ -1,6 +1,6 @@
 import './foodCourt.css'
 import FoodIcon from './assets/foodIcon.svg'
-import LunchRoom from './assets/lunchRoom.svg'
+import LunchRoom from './assets/lunchroom.svg'
 import OpenHours from './assets/openHours.svg'
 import Kosher from './assets/kosher.svg'
 import Kashrut from './assets/kashrut.svg'
