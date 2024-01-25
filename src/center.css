@@ -29,6 +29,7 @@
     position: absolute;
     left: 2vw;
     top: 2vh;
+    transform: rotate(90deg);
 }
 
 .bisText, .shnizText, .burgerText, .coffeeText, .gidronText, .shifturText, .bankText, .DVText , .freshText {
