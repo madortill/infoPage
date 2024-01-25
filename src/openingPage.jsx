@@ -23,9 +23,11 @@ const OpeningPage = (props) => {
 
     return (
         <div className='openContainer'>
-            <img src={`${titleOption[currentTitle]}`} alt="title" className='title' />
-            <img src={Logo} alt="logo" className='logo' />
-            <img src={Slogan} alt="slogan" className='slogan' />
+            <div className='topContainer'>
+                <img src={`${titleOption[currentTitle]}`} alt="title" className='title' />
+                <img src={Logo} alt="logo" className='logo' />
+                <img src={Slogan} alt="slogan" className='slogan' />
+            </div>
             <img src={Arrow} alt="arrow" className='arrow arrowAni' onClick={props.clickedArrow} />
         </div>
     )
