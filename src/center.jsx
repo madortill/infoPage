@@ -10,7 +10,6 @@ import Shiftzurim from './assets/shiftzurim.svg'
 import Freshop from './assets/freshop.svg'
 import DVCom from './assets/DVcom.svg'
 import CenterPic from './assets/center.png'
-import Bank from './assets/bank.png'
 import Back from './assets/backArrow.png'
 import { forwardRef } from 'react';
 
@@ -137,21 +136,6 @@ const Center = forwardRef((props, ref) => {
                     <p>
                     ה- 09:30-14:00
                     </p>
-                    </div>
-                </div>
-                <div className='bankContainer'>
-                    <img src={Bank} className='titleName' />
-                    <div className='bankText'>
-                    קיימת עמדת מידע
-                    והפקדת שיקים וכספומט
-                    למשיכת מזומנים
-                    ללקוחות כל הבנקים
-                    <p>טלפון- <a href="tel: + 3390*" > 3390*</a></p>
-                    <p>שעות פתיחה-</p>
-                    <p>
-                    א- 09:00-14:00
-                    </p>
-                    <p>ג- 09:00- 14:00</p>
                     </div>
                 </div>
                 <img src={CenterPic} className='centerPic' />
