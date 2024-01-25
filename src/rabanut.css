@@ -58,4 +58,5 @@
     position: absolute;
     left: 2vw;
     top: 2vh;
+    transform: rotate(90deg);
 }
